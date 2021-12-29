@@ -3,7 +3,10 @@ import EventDetails from "../EventDetails/EventDetails.js";
 
 const CreateEvent = (props) => {
     const [formSent, setFormSent] = useState(false);
-    const [formData, setFormData] = useState({ event_time: "00:00:00" });
+    const [formData, setFormData] = useState({
+        event_date: new Date("01/01/2001").toISOString().substring(0, 10),
+        event_time: "00:00:00",
+    });
     const [event, setEvent] = useState({});
 
     const handleFormData = (event) => {
@@ -113,6 +116,7 @@ const CreateEvent = (props) => {
                             <input
                                 type="date"
                                 name="event_date"
+                                defaultValue={formData["event_date"]}
                                 className="appearance-none focus:outline-none focus:text-secondary bg-transparent"
                                 required
                             ></input>
