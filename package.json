@@ -42,5 +42,8 @@
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.36",
     "@tailwindcss/postcss7-compat": "^2.2.7"
+  },
+  "engines": {
+    "node": "15.8.0"
   }
 }
