@@ -109,18 +109,18 @@ const CreateEvent = (props) => {
                                 Event Location
                             </label>
                         </div>
-                        <div className="relative border-b-2 border-primary mt-2 z-0 focus-within:border-secondary">
+                        <div className="relative flex flex-row border-b-2 border-primary mt-2 z-0 focus-within:border-secondary">
                             <input
                                 type="date"
                                 name="event_date"
-                                className="inline-block appearance-none focus:outline-none focus:text-secondary bg-transparent"
+                                className="appearance-none focus:outline-none focus:text-secondary bg-transparent"
                                 required
                             ></input>
                             <input
                                 type="time"
                                 name="event_time"
                                 defaultValue={formData["event_time"]}
-                                className="inline-block appearance-none focus:outline-none focus:text-secondary bg-transparent"
+                                className="appearance-none mr-4 focus:outline-none focus:text-secondary bg-transparent"
                                 required
                             ></input>
                             <label
