@@ -12,7 +12,8 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "4.0.3",
     "react-transition-group": "^4.4.2",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "@tailwindcss/postcss7-compat": "^2.2.7"
   },
   "scripts": {
     "start": "craco start",
@@ -40,8 +41,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
-    "postcss": "^7.0.36",
-    "@tailwindcss/postcss7-compat": "^2.2.7"
+    "postcss": "^7.0.36"
   },
   "engines": {
     "node": "15.8.0"
