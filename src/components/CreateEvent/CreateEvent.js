@@ -44,7 +44,7 @@ const CreateEvent = (props) => {
         <>
             {!formSent && (
                 <>
-                    <h1 className="mt-14 md:mt-48 mb-6 md:mb-12 text-3xl md:text-4xl text-secondary">
+                    <h1 className="mt-14 md:mt-48 mb-8 md:mb-12 text-3xl md:text-4xl text-secondary">
                         Create New Event
                     </h1>
                     <form

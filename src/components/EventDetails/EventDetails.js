@@ -46,7 +46,7 @@ const EventDetails = (props) => {
             classNames="details"
         >
             <div ref={transitionDetailsRef} className={props.classes}>
-                <h2 className="mt-12 md:mt-48 mb-6 md:mb-12 text-3xl md:text-4xl text-secondary">
+                <h2 className="mt-12 md:mt-48 mb-8 md:mb-12 text-3xl md:text-4xl text-secondary">
                     {props.header}
                 </h2>
                 <h3 className="text-2xl md:text-3xl">Event Details</h3>
